@@ -1,0 +1,87 @@
+=============== Table of Sections ================
+Section Name             Section Number      Size                
+--------------------------------------------------
+my_code             0                   248                 
+my_data             1                   28                  
+
+============================= Symbol Table ==============================
+Number of Symbols: 15
+------------------------------------------------------------------------
+Symbol         Value     Size    Type           Bind           Ndx            
+------------------------------------------------------------------------
+handler        0         0       NOTYP          GLOBAL         UND            
+mathAdd        0         0       NOTYP          GLOBAL         UND            
+mathSub        0         0       NOTYP          GLOBAL         UND            
+mathMul        0         0       NOTYP          GLOBAL         UND            
+mathDiv        0         0       NOTYP          GLOBAL         UND            
+my_start       0         0       NOTYP          GLOBAL         0              
+value1         0         0       NOTYP          GLOBAL         1              
+value2         4         0       NOTYP          GLOBAL         1              
+value3         8         0       NOTYP          GLOBAL         1              
+value4         c         0       NOTYP          GLOBAL         1              
+value5         10        0       NOTYP          GLOBAL         1              
+value6         14        0       NOTYP          GLOBAL         1              
+value7         18        0       NOTYP          GLOBAL         1              
+my_code        0         0       SCTN           LOCAL          0              
+my_data        0         0       SCTN           LOCAL          1              
+
+=================== Sections ===================
+========= Section binary =========
+Section Name: my_code
+Section Number: 0
+Size: 248
+00000000: c0 00 ef 92 c0 00 1f 92 
+80000000: 00 00 11 94 00 00 00 10 
+10000000: 10 00 10 91 fc 1f e0 81 
+18000000: 10 00 10 91 fc 1f e0 81 
+20000000: a8 00 f0 21 a8 10 f0 82 
+28000000: 20 00 10 91 fc 1f e0 81 
+30000000: 10 00 10 91 fc 1f e0 81 
+38000000: 98 00 f0 21 98 10 f0 82 
+40000000: 70 00 10 91 fc 1f e0 81 
+48000000: b0 00 10 91 fc 1f e0 81 
+50000000: 88 00 f0 21 88 10 f0 82 
+58000000: 50 00 10 91 fc 1f e0 81 
+60000000: 19 00 10 91 fc 1f e0 81 
+68000000: 78 00 f0 21 78 10 f0 82 
+70000000: 40 00 10 91 fc 1f e0 81 
+78000000: 18 00 10 91 fc 1f e0 81 
+80000000: 60 00 f0 21 64 10 f0 82 
+88000000: 64 00 1f 92 00 00 11 92 
+90000000: 3c 00 2f 92 00 00 22 92 
+98000000: 3c 00 3f 92 00 00 33 92 
+a0000000: 3c 00 4f 92 00 00 44 92 
+a8000000: 3c 00 5f 92 00 00 55 92 
+b0000000: 38 00 6f 92 00 00 66 92 
+b8000000: 38 00 7f 92 00 00 77 92 
+c0000000: 00 00 00 00 fe fe ff ff 
+c8000000: 00 00 00 00 00 00 00 f0 
+d0000000: 00 00 00 00 00 00 00 00 
+d8000000: 00 00 00 00 00 00 00 00 
+e0000000: 00 00 00 00 00 00 00 00 
+e8000000: 00 00 00 00 00 00 00 00 
+f0000000: 00 00 00 00 00 00 00 00 
+========= Section binary =========
+Section Name: my_data
+Section Number: 1
+Size: 28
+00000000: 00 00 00 00 00 00 00 00 
+80000000: 00 00 00 00 00 00 00 00 
+10000000: 00 00 00 00 00 00 00 00 
+18000000: 00 00 00 00 
+
+========== Relocation Tables ===========
+Offset    Symbol Name         Addend    
+----------------------------------------
+200       handler             0         
+208       value2              0         
+212       mathAdd             0         
+216       value3              0         
+220       mathSub             0         
+224       value4              0         
+228       mathDiv             0         
+232       value5              0         
+236       value6              0         
+240       value1              0         
+244       value7              0         
+

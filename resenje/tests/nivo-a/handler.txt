@@ -1,0 +1,49 @@
+=============== Table of Sections ================
+Section Name             Section Number      Size                
+--------------------------------------------------
+my_handler          0                   100                 
+
+============================= Symbol Table ==============================
+Number of Symbols: 9
+------------------------------------------------------------------------
+Symbol         Value     Size    Type           Bind           Ndx            
+------------------------------------------------------------------------
+isr_timer      0         0       NOTYP          GLOBAL         UND            
+isr_terminal   0         0       NOTYP          GLOBAL         UND            
+isr_software   0         0       NOTYP          GLOBAL         UND            
+handler        0         0       NOTYP          GLOBAL         0              
+my_handler     0         0       SCTN           LOCAL          0              
+finish         24        0       NOTYP          LOCAL          0              
+handle_timer   34        0       NOTYP          LOCAL          0              
+handle_terminal3c        0       NOTYP          LOCAL          0              
+handle_software44        0       NOTYP          LOCAL          0              
+
+=================== Sections ===================
+========= Section binary =========
+Section Name: my_handler
+Section Number: 0
+Size: 100
+00000000: fc 1f e0 81 fc 2f e0 81 
+80000000: 00 00 12 90 20 00 20 91 
+10000000: 38 20 f1 39 30 00 20 91 
+18000000: 34 20 f1 39 40 00 20 91 
+20000000: 30 20 f1 39 40 00 2e 93 
+28000000: 40 00 1e 93 40 00 e0 96 
+30000000: 80 00 fe 93 20 00 f0 21 
+38000000: e8 f0 f0 30 1c 00 f0 21 
+40000000: e0 f0 f0 30 18 00 f0 21 
+48000000: d8 f0 f0 30 00 00 00 00 
+50000000: 00 00 00 00 00 00 00 00 
+58000000: 00 00 00 00 00 00 00 00 
+60000000: 00 00 00 00 
+
+========== Relocation Tables ===========
+Offset    Symbol Name         Addend    
+----------------------------------------
+76        my_handler          52        
+80        my_handler          60        
+84        my_handler          68        
+88        isr_timer           0         
+92        isr_terminal        0         
+96        isr_software        0         
+

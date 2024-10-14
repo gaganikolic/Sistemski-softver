@@ -1,0 +1,24 @@
+=============== Table of Sections ================
+Section Name             Section Number      Size                
+--------------------------------------------------
+isr                 0                   4                   
+
+============================= Symbol Table ==============================
+Number of Symbols: 2
+------------------------------------------------------------------------
+Symbol         Value     Size    Type           Bind           Ndx            
+------------------------------------------------------------------------
+isr            0         0       SCTN           LOCAL          0              
+isr_timer      0         0       NOTYP          GLOBAL         0              
+
+=================== Sections ===================
+========= Section binary =========
+Section Name: isr
+Section Number: 0
+Size: 4
+00000000: 40 00 fe 93 
+
+========== Relocation Tables ===========
+Offset    Symbol Name         Addend    
+----------------------------------------
+
